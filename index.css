@@ -1,0 +1,130 @@
+:root {
+	--primary-color: #151515;
+	--secondary-color: #A63D40;
+	--accent1-color: #E9B872;
+	--accent2-color: #90A959;
+}
+
+img.social {
+	width: 32px;
+	height: 32px;
+}
+
+h1, h2, h3, h4, p{
+	color: var(--accent2-color);
+	font-family: monospace;
+}
+
+html {
+	background-color: var(--primary-color)
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	display: flex;
+	background-color: var(--secondary-color);
+}
+
+a:hover {
+	background-color: black;
+}
+
+a {
+	color: var(--accent1-color);
+	font-family: monospace;
+	text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.logo {
+	width: 128px;
+	height: auto;
+}
+
+nav>a {
+	margin: auto;
+	display: inline-block;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+#hero-box {
+	z-index: -1;
+	width: 100%;
+}
+
+#hero-img {
+	width: 100%;
+}
+
+#hero-msg {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	top: 256px;
+	text-align: center;
+	background-color: #A63D40cc;
+}
+
+#hero-msg>h1 {
+	font-size: 48pt;
+}
+
+#hero-msg>h4 {
+	font-size: 32pt;
+}
+
+.button-box {
+	margin: 16px;
+}
+
+.button-box>a.book {
+	font-size: 24pt;
+}
+
+.cards-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 32px;
+}
+
+.rivers-card {
+	width: 50%;
+	text-align: center;
+}
+
+.rivers-card>.icon {
+	margin: 16px;
+}
+
+.camping-card {
+	text-align: center;
+}
+
+.camping-card>.icon {
+	margin: 16px;
+}
+
+.rapids-card {
+	text-align: center;
+	width: 50%;
+}
+
+.rapids-card>.icon {
+	margin: 16px;
+}
+
+.info-container {
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+}
