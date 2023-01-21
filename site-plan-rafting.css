@@ -5,14 +5,14 @@ Fonts are separated by a & */
 
 :root {
 	/* change the values below to your colors from your palette */
-	--primary-color: #151515;
-	--secondary-color: #A63D40;
-	--accent1-color: #E9B872;
-	--accent2-color: #90A959;
+	--primary-color: #65655E;
+	--secondary-color: #7D80DA;
+	--accent1-color: #B0A3D4;
+	--accent2-color: #CEBACF;
 
 	/* change the values below to your chosen font(s) */
-	--heading-font: "IM Fell French Canon";
-	--paragraph-font: Lato, Helvetica, sans-serif;
+	--heading-font: Monospace;
+	--paragraph-font: Arial;
 
 	/* these colors below should be chosen from among your palette colors above */
 	--headline-color-on-white: #396E94;
@@ -124,7 +124,7 @@ p.colored {
 }
 
 nav {
-	background-color: var(--nav-background-color);
+	background-color: var(--primary-color);
 	line-height: 4em;
 	text-align: center;
 	font-size: 1.2em;
@@ -144,7 +144,7 @@ nav a {
 
 nav a:link,
 nav a:visited {
-	color: var(--nav-link-color);
+	color: var(--secondary-color);
 }
 
 nav a:hover {

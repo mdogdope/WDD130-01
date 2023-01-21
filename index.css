@@ -3,6 +3,7 @@
 	--secondary-color: #A63D40;
 	--accent1-color: #E9B872;
 	--accent2-color: #90A959;
+	--light-secondary: #A63D40cc;
 }
 
 img.social {
@@ -69,7 +70,7 @@ nav>a {
 	width: 100%;
 	top: 256px;
 	text-align: center;
-	background-color: #A63D40cc;
+	background-color: var(--light-secondary);
 }
 
 #hero-msg>h1 {
@@ -127,4 +128,21 @@ nav>a {
 footer {
 	display: flex;
 	justify-content: space-around;
+}
+
+.info-container {
+	display: block;
+	height: 600px;
+	position: relative;
+}
+
+.info-container .msg {
+	max-width: 600px;
+	position: absolute;
+	right: 25%;
+}
+
+.mountains {
+	position: absolute;
+	right: 50%;
 }
